@@ -1,6 +1,8 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGeneratorEffect'
+import MagicButton from './ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -25,6 +27,13 @@ const Hero = () => {
         <p className='text-center md:tracking-wider mb-4 text-lg md:text-lg lg:text-2xl'>
           Hi, i&apos;m  Marcott, a Flutter Developper Based in DRC
         </p>
+        <a href='#about'>
+          <MagicButton
+          title="Show my work"
+          icon={<FaLocationArrow />}
+          position='right'
+          />
+        </a>
       </div>
     </div>
     </div>

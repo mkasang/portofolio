@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    urslString: "github.com",
   },
   {
     id: 2,
     img: "/twit.svg",
+    urslString: "twitter.com",
   },
   {
     id: 3,
     img: "/link.svg",
+    urslString: "linkdln.com",
   },
 ];

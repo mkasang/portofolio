@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "A propos", link: "#about" },
+  { name: "Apropos", link: "#about" },
   { name: "Projets", link: "#projects" },
   { name: "Temoignages", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -174,28 +174,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev - Flutter",
+    desc: "Conception et développement d'une application mobile pour les plateformes iOS et Android à l'aide de Flutter..",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Dirigé le développement d'une application mobile pour un client, de la conception initiale au déploiement sur les stores d'applications.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Développement et maintenance de fonctionnalités front-end à l'aide de technologies modernes",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

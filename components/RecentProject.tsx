@@ -7,8 +7,8 @@ const RecentProject = () => {
     return (
         <div className='py-20' id="projects">
             <h1 className="heading">
-                A small selection of {' '}
-                <span className='text-purple'>recent projects
+                Une petite sélection de {' '}
+                <span className='text-purple'>projets récents
                 </span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
@@ -49,7 +49,7 @@ const RecentProject = () => {
                                 </div>
                                 <div className='flex justify-center items-center'>
                                     <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                                        check Live Site
+                                        Verifier
                                     </p>
                                     <FaLocationArrow className='ms-3' color='#CBACF9' />
                                 </div>
